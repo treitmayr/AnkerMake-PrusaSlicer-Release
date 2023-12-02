@@ -3,6 +3,7 @@
 
 #include "GLGizmoBase.hpp"
 
+#include <wx/sizer.h>
 
 namespace Slic3r {
 namespace GUI {

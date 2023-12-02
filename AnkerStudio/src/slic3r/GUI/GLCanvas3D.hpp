@@ -2,6 +2,10 @@
 #define slic3r_GLCanvas3D_hpp_
 
 #include <stddef.h>
+#include <string>
+#include <vector>
+#include <map>
+#include <utility>
 #include <memory>
 #include <chrono>
 #include <cstdint>

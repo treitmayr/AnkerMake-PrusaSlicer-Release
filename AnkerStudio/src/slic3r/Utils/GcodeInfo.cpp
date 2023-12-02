@@ -1,6 +1,8 @@
 #include "GcodeInfo.hpp"
 #include "libslic3r/Utils.hpp"
 
+#include <wx/string.h>
+
 namespace Slic3r {
 
 using namespace std;

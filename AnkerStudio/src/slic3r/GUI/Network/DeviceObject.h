@@ -7,7 +7,7 @@
 #include "MsgText.hpp"
 #include <boost/signals2.hpp>
 #include <mutex>
-
+#include <queue>
 
 
 DEF_PTR(DeviceObject)

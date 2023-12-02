@@ -361,8 +361,6 @@ set(SLIC3R_GUI_SOURCES
     GUI/Common/AnkerMerterialBoxBtn.cpp
     GUI/Common/AnkerRoundPanel.cpp
     GUI/Common/AnkerRoundPanel.hpp
-    GUI/Common/AnkerCombinComboBox.cpp
-    GUI/Common/AnkerCombinComboBox.hpp
     GUI/Common/AnkerRoundBaseDialog.cpp
     GUI/Common/AnkerRoundBaseDialog.hpp
     GUI/Common/AnkerRoundDialog.cpp

@@ -3,6 +3,7 @@
 #include <vector>
 #include <algorithm>
 #include <wx/string.h>
+#include <wx/wupdlock.h>
 
 #include "GUI_App.hpp"
 #include "Plater.hpp"
@@ -13,9 +14,9 @@
 
 #include "GLCanvas3D.hpp"
 #include "Gizmos/GLGizmosManager.hpp"
-#include "Slic3r/GUI/Common/AnkerMsgDialog.hpp"
-#include "common/AnkerGUIConfig.hpp"
-#include "common/AnkerBitmapCombox.hpp"
+#include "slic3r/GUI/Common/AnkerMsgDialog.hpp"
+#include "Common/AnkerGUIConfig.hpp"
+#include "Common/AnkerBitmapCombox.hpp"
 
 
 namespace Slic3r {

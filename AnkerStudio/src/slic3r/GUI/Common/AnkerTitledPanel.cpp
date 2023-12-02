@@ -2,7 +2,7 @@
 
 #include "AnkerGUIConfig.hpp"
 #include "AnkerSplitCtrl.hpp"
-#include "Slic3r/GUI/GUI_App.hpp"
+#include "slic3r/GUI/GUI_App.hpp"
 
 
 wxDEFINE_EVENT(wxANKEREVT_ATP_BUTTON_CLICKED, wxCommandEvent);

@@ -9,7 +9,7 @@
 #include "libslic3r/Model.hpp"
 #include "GLCanvas3D.hpp"
 #include "Plater.hpp"
-#include "common/AnkerGUIConfig.hpp"
+#include "Common/AnkerGUIConfig.hpp"
 #include <boost/algorithm/string.hpp>
 
 #include "I18N.hpp"

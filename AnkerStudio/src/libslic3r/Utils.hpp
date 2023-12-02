@@ -10,6 +10,7 @@
 
 #include <boost/system/error_code.hpp>
 #include <boost/filesystem.hpp>
+#include <boost/log/trivial.hpp>
 
 #include "libslic3r.h"
 

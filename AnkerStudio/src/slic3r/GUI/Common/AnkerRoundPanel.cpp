@@ -1,5 +1,6 @@
 #include "AnkerRoundPanel.hpp"
 #include <wx/graphics.h>
+#include <wx/dcbuffer.h>
 #include "../GUI.hpp"
 #include "libslic3r/Utils.hpp"
 #include <slic3r/GUI/Common/AnkerGUIConfig.hpp>

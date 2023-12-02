@@ -1,6 +1,7 @@
 #pragma once
 #include  <wx/panel.h>
 #include  <wx/sizer.h>
+#include <wx/bookctrl.h>
 #include "AnkerBtn.hpp"
 #include "Common/AnkerCombinButton.h"
 

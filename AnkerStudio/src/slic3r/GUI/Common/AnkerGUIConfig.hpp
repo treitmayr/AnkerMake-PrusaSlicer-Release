@@ -87,7 +87,7 @@
 
 // ANKER_FONT custom font type 
 #define ANKER_BOLD_FONT_SIZE_TYPE(fontSize, fonttype) wxFont(fontSize + 4, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_BOLD, false, wxT(fonttype))
-#define ANKER_FONT_SIZE_TYPE(fontSize, fonttype) wxFont(fontSize + 4, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL, false, wxT(fonttype"))
+#define ANKER_FONT_SIZE_TYPE(fontSize, fonttype) wxFont(fontSize + 4, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL, false, wxT(fonttype))
 
 
 #endif // !__APPLE__	

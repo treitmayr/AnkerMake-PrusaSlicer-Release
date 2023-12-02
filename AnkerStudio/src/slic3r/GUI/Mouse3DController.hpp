@@ -9,6 +9,7 @@
 #include "hidapi.h"
 
 #include <queue>
+#include <map>
 #include <atomic>
 #include <mutex>
 #include <thread>

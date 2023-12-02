@@ -1,6 +1,8 @@
 #ifndef _ANKER_EASY_PANEL_HPP_
 #define _ANKER_EASY_PANEL_HPP_
 
+#include <map>
+
 #include "wx/wx.h"
 #include "wx/dc.h"
 #include <wx/control.h>

@@ -1,5 +1,7 @@
 #include "AnkerMenuBar.hpp"
 
+#include <wx/dcclient.h>
+
 AnkerIconMenu::AnkerIconMenu(const wxBitmap& icon, const std::string& title) : 
     wxMenu(title),
     m_icon(icon)

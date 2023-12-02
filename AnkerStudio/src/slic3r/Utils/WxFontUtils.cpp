@@ -2,6 +2,7 @@
 #include <boost/assign.hpp>
 #include <boost/log/trivial.hpp>
 #include "libslic3r/Utils.hpp"
+#include <wx/dcclient.h>
 
 #if defined(__APPLE__)
 #include <CoreText/CTFont.h>

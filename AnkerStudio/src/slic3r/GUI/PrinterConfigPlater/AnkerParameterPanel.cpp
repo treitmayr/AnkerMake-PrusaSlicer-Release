@@ -9,10 +9,10 @@
 #include "../AnkerCheckBox.hpp"
 #include "../wxExtensions.hpp"
 #include "../Plater.hpp"
-#include "libslic3r/print.hpp"
+//#include "libslic3r/print.hpp"
 #include "../SavePresetDialog.hpp"
 #include "libslic3r/PrintConfig.hpp"
-#include "../common/AnkerGUIConfig.hpp"
+#include "../Common/AnkerGUIConfig.hpp"
 
 
 #ifndef __APPLE__

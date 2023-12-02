@@ -1,6 +1,8 @@
 #ifndef _ANKER_OBJECT_BAR_VIEW_H_
 #define _ANKER_OBJECT_BAR_VIEW_H_
 
+#include <map>
+
 #include "wx/wx.h"
 
 

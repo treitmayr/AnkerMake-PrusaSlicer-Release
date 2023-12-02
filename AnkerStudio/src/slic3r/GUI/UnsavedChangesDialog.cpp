@@ -20,7 +20,7 @@
 #include "SavePresetDialog.hpp"
 #include "MainFrame.hpp"
 #include "MsgDialog.hpp"
-#include "common/AnkerGUIConfig.hpp"
+#include "Common/AnkerGUIConfig.hpp"
 #include "PresetComboBoxes.hpp"
 
 using boost::optional;

@@ -26,6 +26,7 @@
 #include "Tab.hpp"
 // add by allen for ankerCfgDlg
 #include "AnkerCfgTab.hpp"
+#include "AnkerNetBase.h"
 
 #include "ProgressStatusBar.hpp"
 #include "3DScene.hpp"
@@ -60,7 +61,7 @@
 #endif // _WIN32
 #include "../Utils/DataManger.hpp"
 #include <wx/stream.h>
-#include <wx/msw/cursor.h>
+#include <wx/cursor.h>
 #include <algorithm>
 #include <wx/url.h>
 #include "Common/AnkerDialog.hpp"
@@ -2325,13 +2326,13 @@ void MainFrame::selectLanguage(GUI_App::AnkerLanguageType language)
 
 bool MainFrame::languageIsJapanese()
 {
-#ifdef _WIN32
+#if defined(_WIN32) || defined(__linux__)
     int sysLanguage = wxLocale::GetSystemLanguage();
     wxString sysLanguageName = wxLocale::GetLanguageName(wxLANGUAGE_JAPANESE_JAPAN);
     ANKER_LOG_INFO << "MainFrame::languageIsJapanese: " << ", sysLanguage: " << sysLanguage << ", wxLANGUAGE_JAPANESE: " << wxLANGUAGE_JAPANESE_JAPAN;
     return (sysLanguage == wxLanguage::wxLANGUAGE_JAPANESE_JAPAN ||
         sysLanguage == wxLanguage::wxLANGUAGE_JAPANESE) ;
-#elif __APPLE__
+#elif defined(__APPLE__)
     FILE* fp = NULL;
     char buffer[1024];
     //Get Language info.

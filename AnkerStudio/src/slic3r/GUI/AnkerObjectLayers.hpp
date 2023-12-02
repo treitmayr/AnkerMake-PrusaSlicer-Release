@@ -8,6 +8,8 @@
 #include "../libslic3r/PrintConfig.hpp"
 #endif
 
+#include <wx/scrolwin.h>
+
 class wxBoxSizer;
 
 namespace Slic3r {

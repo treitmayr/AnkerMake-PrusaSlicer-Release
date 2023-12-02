@@ -5,6 +5,8 @@
 
 #include "slic3r/GUI/I18N.hpp"
 
+#include <wx/sizer.h>
+
 namespace Slic3r::GUI {
 
 class GLGizmoSeam : public GLGizmoPainterBase

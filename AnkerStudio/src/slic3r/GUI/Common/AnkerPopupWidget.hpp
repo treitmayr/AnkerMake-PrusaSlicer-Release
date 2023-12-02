@@ -6,6 +6,10 @@
 #include "wx/sizer.h"
 #include "wx/dcclient.h"
 
+#include <vector>
+#include <map>
+
+
 wxDECLARE_EVENT(wxCUSTOMEVT_ANKER_ITEM_CLICKED, wxCommandEvent);
 
 

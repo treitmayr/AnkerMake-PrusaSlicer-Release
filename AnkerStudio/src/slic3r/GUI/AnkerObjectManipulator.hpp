@@ -7,6 +7,7 @@
 #include "Selection.hpp"
 
 #include <functional>
+#include <float.h>
 
 
 wxDECLARE_EVENT(wxANKEREVT_AOM_RETURN, wxCommandEvent);

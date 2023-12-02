@@ -19,6 +19,8 @@
 #include <time.h>
 #include <chrono>
 
+#include <wx/mstream.h>
+
 
 wxDEFINE_EVENT(wxCUSTOMEVT_FILEITEM_CLICKED, wxCommandEvent);
 

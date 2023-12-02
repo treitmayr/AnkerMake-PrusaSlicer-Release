@@ -1,7 +1,10 @@
 #ifndef _ANKER_OBJECT_BAR_H_
 #define _ANKER_OBJECT_BAR_H_
 
-#include "wx/wx.h"
+#include <map>
+
+#include <wx/wx.h>
+#include <wx/dataview.h>
 #include "AnkerObjectBarView.hpp"
 #include "libslic3r/Model.hpp"
 

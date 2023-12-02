@@ -43,7 +43,7 @@ AnkerOtaNotesNormalPanel::AnkerOtaNotesNormalPanel(
 
 #ifdef _WIN32
     wxTextCtrl* textCtrl = new wxTextCtrl(m_centerPanel, wxID_ANY, context, contextPos, AnkerSize(size.GetWidth(), textY), wxTE_MULTILINE | wxTE_READONLY | wxNO_BORDER);
-#elif __APPLE__
+#else
     wxTextCtrl* textCtrl = new wxTextCtrl(m_centerPanel, wxID_ANY, context, contextPos, AnkerSize(size.GetWidth() - interval * 2, textY), wxTE_MULTILINE | wxTE_READONLY | wxNO_BORDER);
 #endif
     //->SetWindowStyleFlag(textCtrl->GetWindowStyleFlag() & ~wxBORDER_MASK);

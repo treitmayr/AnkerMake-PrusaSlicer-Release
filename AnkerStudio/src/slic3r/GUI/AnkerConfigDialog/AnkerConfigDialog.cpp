@@ -1,5 +1,6 @@
 #include "AnkerConfigDialog.hpp"
 #include <wx/simplebook.h>
+#include <wx/display.h>
 
 #include "../GUI_App.hpp"
 #include "../I18N.hpp"
@@ -7,7 +8,7 @@
 #include "libslic3r/PresetBundle.hpp"
 #include "../Notebook.hpp"
 #include "../MainFrame.hpp"
-#include "../common/AnkerGUIConfig.hpp"
+#include "../Common/AnkerGUIConfig.hpp"
 
 
 wxDEFINE_EVENT(wxCUSTOMEVT_UPDATE_PARAMETERS_PANEL, wxCommandEvent);

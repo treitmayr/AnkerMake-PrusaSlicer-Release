@@ -2,6 +2,7 @@
 #include "Print.hpp"
 
 #include <cfloat>
+#include <boost/date_time/posix_time/posix_time.hpp>
 
 namespace Slic3r {
 

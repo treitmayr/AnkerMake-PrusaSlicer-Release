@@ -4,12 +4,12 @@
 #include <memory>
 #include <map>
 #include <string>
+#include <cstring>
 #include <list>
 #include <vector>
 #ifdef _WIN32
 #include <Windows.h>
-#endif // _WIN32
-#ifdef __APPLE__
+#else
 #include <cstdint>
 #include <dlfcn.h>
 typedef uint64_t UINT64;

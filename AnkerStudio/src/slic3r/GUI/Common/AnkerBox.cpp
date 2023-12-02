@@ -1,6 +1,5 @@
 #include "AnkerBox.hpp"
 #include "../wxExtensions.hpp"
-#include "libslic3r/utils.hpp"
 
 
 AnkerBox::AnkerBox()

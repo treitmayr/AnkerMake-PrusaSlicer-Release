@@ -1,5 +1,6 @@
 #ifndef ANKER_BOX_HPP
 #define ANKER_BOX_HPP
+#include <atomic>
 #include <wx/wx.h>
 #include <wx/panel.h>
 #include "AnkerBase.hpp"

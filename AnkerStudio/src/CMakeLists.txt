@@ -51,9 +51,9 @@ if (SLIC3R_GUI)
     if (CMAKE_SYSTEM_NAME STREQUAL "Linux")
         set (wxWidgets_CONFIG_OPTIONS "--toolkit=gtk${SLIC3R_GTK}")
         if (SLIC3R_WX_STABLE)
-            find_package(wxWidgets 3.0 REQUIRED COMPONENTS base core adv html gl webview richtext)
+            find_package(wxWidgets 3.0 REQUIRED COMPONENTS base core adv html gl webview richtext xml)
         else ()
-            find_package(wxWidgets 3.1 QUIET COMPONENTS base core adv html gl webview richtext)
+            find_package(wxWidgets 3.1 QUIET COMPONENTS base core adv html gl webview richtext xml)
 
             if (NOT wxWidgets_FOUND)
                 message(FATAL_ERROR "\nCould not find wxWidgets 3.1.\n"

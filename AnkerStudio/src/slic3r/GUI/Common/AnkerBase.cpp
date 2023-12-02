@@ -7,6 +7,8 @@
 std::string AnkerBase::AnkerResourceIconPath = "/resources/icons/";
 #elif __APPLE__
 std::string AnkerBase::AnkerResourceIconPath = "/../Resources/icons/";
+#elif __linux__
+std::string AnkerBase::AnkerResourceIconPath = "/../resources/icons/";
 #endif
 
 AnkerBase::AnkerBase()
@@ -18,6 +20,8 @@ AnkerBase::AnkerBase()
     iconPath += "/resources/icons/";
 #elif __APPLE__
     iconPath += "/../Resources/icons/";
+#elif __linux__
+    iconPath += "/../resources/icons/";
 #endif
     AnkerResourceIconPath = iconPath;
 }

@@ -14,9 +14,10 @@
 #include "Gizmos/GLGizmoSeam.hpp"
 #include "Gizmos/GLGizmoFdmSupports.hpp"
 #include "wxExtensions.hpp"
-#include "libSlic3r/TriangleMesh.hpp"
+#include "libslic3r/TriangleMesh.hpp"
 #include "GalleryDialog.hpp"
 
+#include <wx/progdlg.h>
 
 static const Slic3r::GUI::Selection& scene_selection()
 {

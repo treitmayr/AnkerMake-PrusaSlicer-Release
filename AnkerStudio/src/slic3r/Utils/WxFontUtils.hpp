@@ -6,6 +6,7 @@
 #include <string_view>
 #include <boost/bimap.hpp>
 #include <wx/font.h>
+#include <wx/stattext.h>
 #include "libslic3r/Emboss.hpp"
 
 namespace Slic3r::GUI {

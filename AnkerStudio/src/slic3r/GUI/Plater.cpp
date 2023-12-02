@@ -14,6 +14,7 @@
 #include <boost/filesystem/operations.hpp>
 #include <boost/log/trivial.hpp>
 #include <boost/nowide/convert.hpp>
+#include <boost/nowide/cstdio.hpp>
 
 #include <wx/sizer.h>
 #include <wx/stattext.h>
@@ -30,6 +31,7 @@
 #include <wx/busyinfo.h>
 #include <wx/stdpaths.h>
 #include <wx/tarstrm.h>
+#include <wx/wfstream.h>
 #ifdef _WIN32
 #include <wx/richtooltip.h>
 #include <wx/custombgwin.h>

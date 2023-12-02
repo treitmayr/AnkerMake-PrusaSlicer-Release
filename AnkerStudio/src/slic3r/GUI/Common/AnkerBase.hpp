@@ -16,6 +16,9 @@
 #ifdef __APPLE__
 #define _AnkerFont(size) wxFont(size, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL, false, "SF Pro Display")
 #define _AnkerFontParams(size, family, style, weight, underlined) wxFont(size, family, style, weight, underlined, "SF Pro Display")
+#elif __linux__
+#define _AnkerFont(size) wxFont(size, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL, false, "SF Pro Display")
+#define _AnkerFontParams(size, family, style, weight, underlined) wxFont(size, family, style, weight, underlined, "SF Pro Display")
 #elif _WIN32
 #define _AnkerFont(size) wxFont(size, wxFONTFAMILY_DEFAULT, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_NORMAL, false, "Microsoft YaHei")
 #define _AnkerFontParams(size, family, style, weight, underlined) wxFont(size, family, style, weight, underlined, "Microsoft YaHei")

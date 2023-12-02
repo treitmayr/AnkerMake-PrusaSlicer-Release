@@ -21,7 +21,9 @@
 #include <wx/bmpcbox.h>
 #include <wx/statline.h>
 #include <wx/dcclient.h>
+#include <wx/dcbuffer.h>
 #include <wx/colordlg.h>
+#include <wx/overlay.h>
 
 #include <cmath>
 #include <boost/algorithm/string/replace.hpp>

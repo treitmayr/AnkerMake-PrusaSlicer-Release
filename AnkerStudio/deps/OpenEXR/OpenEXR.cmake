@@ -1,9 +1,10 @@
 prusaslicer_add_cmake_project(OpenEXR
     # GIT_REPOSITORY https://github.com/openexr/openexr.git
-    URL https://github.com/AcademySoftwareFoundation/openexr/archive/refs/tags/v2.5.5.zip
-    URL_HASH SHA256=0307a3d7e1fa1e77e9d84d7e9a8694583fbbbfd50bdc6884e2c96b8ef6b902de
+    # Note: We might want to change this back to v2.5.5 and instead include the patch from PrusaSlicer
+    URL https://github.com/AcademySoftwareFoundation/openexr/archive/refs/tags/v2.5.9.zip
+    URL_HASH SHA256=3b23a2b16b09ab0419db5e1517d2e81b41b4b32606f95169a83e320504f0976f
     DEPENDS ${ZLIB_PKG}
-    GIT_TAG v2.5.5
+    GIT_TAG v2.5.9
     CMAKE_ARGS
         -DCMAKE_POSITION_INDEPENDENT_CODE=ON
         -DBUILD_TESTING=OFF 
